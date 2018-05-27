@@ -5,7 +5,7 @@ def reverse_each_word(string)
     if word == string_to_array[string_to_array.length - 1]
       new_string << " #{word.reverse}"
     elsif word == string_to_array[0]  
-      new_string << "#{word.reverse} "
+      new_string << "#{word.reverse}"
     else  
       new_string << " #{word.reverse}" 
     end
